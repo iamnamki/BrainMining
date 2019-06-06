@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.subul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index:100;
+}
+
+.subli {
+  float: left;
+}
+
+.subli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin:auto;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8A2BE2;
+  color: white;
+}
+
+/* alert 창 */
+
+.swal-text {
+  
+}
+
+.swal-button {
+  padding: 10px 25px;
+  background-color: red;
+  font-size: 16px;
+}
+
+.swal-button {
+  padding: 10px 25px;
+  background-color: red;
+  font-size: 16px;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: red; 
+}
+
+.swal-footer {
+  background-color: rgb(245, 248, 250);
+  margin-top: 32px;
+  border-top: 1px solid #E9EEF1;
+  overflow: hidden;
+}
+
+.swal-button--cancel {
+    color: #555;
+    background-color: #efefef;
+}
+
+.swal-button--cancel:not([disabled]):hover {
+    background-color: #e8e8e8;
+}
+
+.body_container {
+	
+	width : 70%;
+	margin : auto;
+	
+}
